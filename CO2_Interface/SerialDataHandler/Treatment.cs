@@ -3,7 +3,7 @@ using System.Data;
 
 namespace CO2_Interface.SerialDataHandler
 {
-    internal static partial class Reception
+    internal static  class Treatment
     {
         internal static void DataTreatment(DataTable dt, DataGridView dg)
         {
