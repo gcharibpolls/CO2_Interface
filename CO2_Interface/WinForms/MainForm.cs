@@ -13,7 +13,7 @@ namespace CO2_Interface
         {
             InitializeComponent();
 
-            SerialPort.DataReceived += new SerialDataReceivedEventHandler(SerialDataHandler.Treatment.ReceptionHandler);
+            SerialPort.DataReceived += new SerialDataReceivedEventHandler(SerialDataHandler.Reception.ReceptionHandler);
 
             Data.Tables.DataFromSensor.Columns.Add(Data.Tables.Columns.ID);
             Data.Tables.DataFromSensor.Columns.Add(Data.Tables.Columns.BinaryData);
